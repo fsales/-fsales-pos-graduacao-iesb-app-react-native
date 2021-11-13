@@ -22,7 +22,9 @@
  - [Expo](https://expo.dev/)
  - [React Native](https://reactnative.dev/)
 
-### Mão no código
+## Mão no código
+
+
     [x] Instalar Expo-cli
         npm -g install expo-cli --global
     [] Download do Expo na loja oficial (Apple ou Google Play).
