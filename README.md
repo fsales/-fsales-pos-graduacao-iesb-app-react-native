@@ -16,7 +16,7 @@
     RMTADSA
     
 ## Aluno  
- 2186339023 - Fábio de Oliveira Sales
+    2186339023 - Fábio de Oliveira Sales
 
 ## Tecnologias
  - [Expo](https://expo.dev/)
