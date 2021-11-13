@@ -30,7 +30,7 @@
 - [ ] Download do Expo na loja oficial (Apple ou Google Play).
 
 - [ ] Criar projeto
-          expo init {nome do projeto} --template=blank
+          expo init {nome do projeto} //--template=blank
      
 - [ ] Instalar [React Native Paper] (https://callstack.github.io/react-native-paper/)
           npm install react-native-paper
