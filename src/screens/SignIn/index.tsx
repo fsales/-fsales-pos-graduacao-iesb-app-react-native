@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { View, Text, TextInput } from "react-native";
+import ButtonIcon from "../../components/ButtonIcon";
 
 import { style } from './styles';
 
 export default function SignIn() {
-    const [text, setText] = useState('f');
+    const [text, setText] = useState('');
     return (
         <View style={style.container}>
             <Text>Hello Word,</Text>
@@ -16,6 +17,10 @@ export default function SignIn() {
             <Text>
                 você digitou {text}
             </Text>
+
+            <ButtonIcon
+                title='Entrar login'
+                activeOpacity={0.7} />
         </View>
     );
 }
