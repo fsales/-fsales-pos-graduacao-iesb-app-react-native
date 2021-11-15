@@ -1,30 +1,29 @@
-import React from "react";
+import React from 'react';
 import {
-    Text,
-    TouchableOpacity,
-    TouchableOpacityProps
-} from "react-native";
+  Text,
+  TouchableOpacity,
+  TouchableOpacityProps,
+} from 'react-native';
 
-import { styles } from "./styles";
-
+import { styles } from './styles';
 
 interface Props extends TouchableOpacityProps {
     title: string,
 }
 
-/*type Props = TouchableOpacityProps & {
+/* type Props = TouchableOpacityProps & {
     title: string,
-}*/
+} */
 
+const ButtonIcon = function ({ title, ...rest }: Props) {
+  return (
+    <TouchableOpacity style={styles.container} {...rest}>
+      <Text style={styles.title}>
+        {title}
+      </Text>
+    </TouchableOpacity>
 
+  );
+};
 
-export default function ButtonIcon({ title, ...rest }: Props) {
-    return (
-        <TouchableOpacity style={styles.container} {...rest} >
-            <Text style={styles.title}>
-                {title}
-            </Text>
-        </TouchableOpacity>
-
-    );
-}
+export default ButtonIcon;
