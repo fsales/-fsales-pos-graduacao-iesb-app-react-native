@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app-git",
-    "slug": "app-git",
+    "name": "Filmes",
+    "slug": "Filmes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
