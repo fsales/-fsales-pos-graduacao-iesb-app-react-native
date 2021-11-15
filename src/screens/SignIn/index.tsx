@@ -4,7 +4,7 @@ import ButtonIcon from '../../components/ButtonIcon';
 
 import { style } from './styles';
 
-const SignIn = function (): Element {
+const SignIn = function () {
   const [text, setText] = useState('');
   return (
     <View style={style.container}>

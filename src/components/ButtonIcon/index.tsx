@@ -15,7 +15,7 @@ interface Props extends TouchableOpacityProps {
     title: string,
 } */
 
-const ButtonIcon = function ({ title, ...rest }: Props) : ReactElement {
+const ButtonIcon = function ({ title, ...rest }: Props) {
   return (
     <TouchableOpacity style={styles.container} {...rest}>
       <Text style={styles.title}>
