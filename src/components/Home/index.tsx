@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 import { Button, useTheme } from 'react-native-paper';
 import SignIn from '../../screens/SignIn';
 
-const Home = function () {
+const Home = function () : Element {
   const { colors } = useTheme();
   return (
     <View style={{

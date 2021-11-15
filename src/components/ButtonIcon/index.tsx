@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import {
   Text,
   TouchableOpacity,
@@ -15,7 +15,7 @@ interface Props extends TouchableOpacityProps {
     title: string,
 } */
 
-const ButtonIcon = function ({ title, ...rest }: Props) {
+const ButtonIcon = function ({ title, ...rest }: Props) : ReactElement {
   return (
     <TouchableOpacity style={styles.container} {...rest}>
       <Text style={styles.title}>
