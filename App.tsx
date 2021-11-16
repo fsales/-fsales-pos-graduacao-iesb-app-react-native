@@ -1,4 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Appearance } from 'react-native';
 import 'react-native-gesture-handler';
@@ -14,6 +15,7 @@ const App = function () {
     <PaperProvider theme={colorScheme === 'light' ? theme : dark}>
 
       <NavigationContainer>
+        <StatusBar hidden={true} />
         <Routes />
       </NavigationContainer>
 
