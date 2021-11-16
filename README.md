@@ -14,8 +14,8 @@
 
 ## Turma
     RMTADSA
-    
-## Aluno  
+
+## Aluno
     2186339023 - Fábio de Oliveira Sales
 
 ## Tecnologias
@@ -26,38 +26,42 @@
 
 - [x] Instalar Expo-cli
           npm -g install expo-cli --global
-     
-- [ ] Download do Expo na loja oficial (Apple ou Google Play).
 
-- [ ] Criar projeto
-          expo init {nome do projeto} --template=blank
-     
-- [ ] Instalar [React Native Paper] (https://callstack.github.io/react-native-paper/)
-          npm install react-native-paper
-     
-- [ ] Instalar [React Native Navigation](https://reactnavigation.org/)
-          npm install @react-navigation/native
-     
-- [ ] Instalar [React Native Screens](https://github.com/software-mansion/react-native-screens#readme)
+- [x] Download do Expo na loja oficial (Apple ou Google Play).
+
+- [x] Criar projeto
+          expo init {nome do projeto}
+
+- [x] Instalar [React Native Paper] (https://callstack.github.io/react-native-paper/)
+          yarn add react-native-paper
+
+- [x] Instalar [React Native Navigation](https://reactnavigation.org/)
+          yarn add @react-navigation/native
+
+- [x] Instalar [React Native Screens](https://github.com/software-mansion/react-native-screens#readme)
           expo install react-native-screens
-     
-- [ ] Instalar [React Native Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context#readme)
-          expo react-native-safe-area-context
-     
-- [ ] Instalar [React Native Stack](https://reactnavigation.org/docs/native-stack-navigator/)
-          npm i @react-navigation/native-stack
-     
-- [ ] Instalar [React Native Navigation bottom-tabs](https://github.com/react-navigation/react-navigation#readme)
-          npm i @react-navigation/bottom-tabs
-     
-- [ ] Instalar [React Native Navigation drawer](https://github.com/react-navigation/react-navigation#readme)
-          npm i @react-navigation/drawer
-     
+
+- [x] Instalar [React Native Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context#readme)
+          expo install react-native-safe-area-context
+
+- [x] Instalar [React Native Stack](https://reactnavigation.org/docs/native-stack-navigator/)
+          yarn add @react-navigation/native-stack
+
+- [x] Instalar [React Native Navigation bottom-tabs](https://github.com/react-navigation/react-navigation#readme)
+          yarn add @react-navigation/bottom-tabs
+
+- [x] Instalar [React Native Navigation drawer](https://github.com/react-navigation/react-navigation#readme)
+          yarn add @react-navigation/drawer
+          yarn add react-native-gesture-handler react-native-reanimated
+
+
 - [ ] Instalar [Axios](https://github.com/axios/axios#readme)
-          npm i axios
-     
-- [ ] Instalar [React Native Response Grid](https://github.com/im-fahad/react-native-responsive-grid-system#readme)
-          npm i react-native-responsive-grid
+          yarn add axios
 
+- [x] Instalar [React Native Response Grid](https://github.com/im-fahad/react-native-responsive-grid-system#readme)
+          yarn add react-native-responsive-grid
 
+- [x] Instalar [Style Components](https://styled-components.com/)
+          yarn add styled-components
+          yarn add @types/styled-components-react-native (Tipagem do TypeScript)
 
