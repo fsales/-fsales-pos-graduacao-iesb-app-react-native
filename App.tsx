@@ -1,15 +1,22 @@
-/* eslint-disable func-names */
-import React, { ReactElement } from 'react';
-import { Provider as PaperProvider } from 'react-native-paper';
+import { NavigationContainer } from '@react-navigation/native';
+import React from 'react';
 import { Appearance } from 'react-native';
-import Home from './src/components/Home';
+import 'react-native-gesture-handler';
+import { Provider as PaperProvider } from 'react-native-paper';
 import { dark, theme } from './src/global/theme';
+import Routes from './src/routes';
+
+
 
 const colorScheme = Appearance.getColorScheme();
-const App = function (): ReactElement {
+const App = function () {
   return (
     <PaperProvider theme={colorScheme === 'light' ? theme : dark}>
-      <Home />
+
+      <NavigationContainer>
+        <Routes />
+      </NavigationContainer>
+
     </PaperProvider>
   );
 };

@@ -2,15 +2,15 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 
-const Home = () => {
+const Movies = () => {
   return (
     <View>
       <Text>
-        tela Home
+        tela Movies
       </Text>
 
     </View>
   )
 }
 
-export default Home;
+export default Movies;
