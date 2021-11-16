@@ -1,7 +1,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import React from 'react';
-import Movies from '../components/Movies';
+import Movies from '../pages/Movies';
 import StackRoutes from './stackRoutes';
 
 
