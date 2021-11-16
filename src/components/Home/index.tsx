@@ -1,15 +1,16 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
+import { Container } from './styles';
 
 
 const Home = () => {
   return (
-    <View>
+    <Container>
       <Text>
         tela Home
       </Text>
 
-    </View>
+    </Container>
   )
 }
 
