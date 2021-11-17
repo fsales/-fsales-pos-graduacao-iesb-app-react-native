@@ -8,3 +8,9 @@ export function getListMovies(size: number, movies: Array<any>): Array<any> {
 
   return popularMovies;
 }
+
+export function getMovieBannerMovie(movies: Array<any>): any {
+  let indice: number = Math.floor(Math.random() * movies.length);
+
+  return movies[indice];
+}
