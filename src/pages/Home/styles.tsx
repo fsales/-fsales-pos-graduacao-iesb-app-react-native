@@ -1,9 +1,9 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-  background-color: #141a29;
+  background-color: #7d8db8;
   flex: 1;
-  padding: 4px 0;
+  padding: 8px 0;
 `;
 
 export const SearchContainer = styled.View`
@@ -31,5 +31,33 @@ export const SearchButton = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
 `;
+
+
+export const Title = styled.Text`
+  padding-top: 20px;
+  padding-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: whitesmoke;
+  padding-left: 14px;
+  padding-right: 14px;
+`;
+
+export const BannerButton = styled.TouchableOpacity`
+
+`;
+
+export const Banner = styled.Image`
+  height: 150px;
+  border-radius: 6px;
+  margin: 0 14px;
+`;
+
+export const SliderMovie = styled.FlatList`
+  height: 250px;
+  padding: 0 14px;
+`;
+
+
 
 

@@ -11,12 +11,12 @@ const Routes = () => {
   return (
     <Drawer.Navigator
       screenOptions={{
-        headerShown: false,
+        headerTitle: 'Sales Flix',
         drawerStyle: {
-          backgroundColor: '#090A0E',
+          backgroundColor: '#7d8db8',
           paddingTop: 20,
         },
-        drawerActiveBackgroundColor: '#E72F49',
+        drawerActiveBackgroundColor: '#cc6270',
         drawerActiveTintColor: '#FFF',
         drawerInactiveTintColor: '#FFF'
 
