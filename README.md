@@ -69,5 +69,5 @@
           yarn add react-native-star-rating
           yarn add -D @types/react-native-star-rating
 
-- [x] Instalar [React Native WebViewopa](https://docs.expo.dev/versions/latest/sdk/webview/)
+- [x] Instalar [React Native WebView](https://docs.expo.dev/versions/latest/sdk/webview/)
         expo install react-native-webview
