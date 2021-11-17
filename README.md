@@ -55,7 +55,7 @@
           yarn add react-native-gesture-handler react-native-reanimated
 
 
-- [ ] Instalar [Axios](https://github.com/axios/axios#readme)
+- [x] Instalar [Axios](https://github.com/axios/axios#readme)
           yarn add axios
 
 - [x] Instalar [React Native Response Grid](https://github.com/im-fahad/react-native-responsive-grid-system#readme)
@@ -63,5 +63,11 @@
 
 - [x] Instalar [Style Components](https://styled-components.com/)
           yarn add styled-components
-          yarn add @types/styled-components-react-native (Tipagem do TypeScript)
+          yarn add -D @types/styled-components-react-native (Tipagem do TypeScript)
 
+- [x] Instalar [React Native Star Rating](https://github.com/djchie/react-native-star-rating)
+          yarn add react-native-star-rating
+          yarn add -D @types/react-native-star-rating
+
+- [x] Instalar [React Native WebViewopa](https://docs.expo.dev/versions/latest/sdk/webview/)
+        expo install react-native-webview

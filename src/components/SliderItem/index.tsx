@@ -4,11 +4,12 @@ import { BanerItem, Container, Rate, RateContainer, Title } from './styles';
 
 type Props = {
   data: any,
+  navigatePage: any,
 }
 
-const SliderItem = ({ data }: Props) => {
+const SliderItem = ({ data, navigatePage }: Props) => {
   return (
-    <Container activeOpacity={0.7}>
+    <Container activeOpacity={0.7} onPress={() => navigatePage(data)}>
       <BanerItem
         resizeMethod="resize"
         source={{ uri: `https://image.tmdb.org/t/p/original/${data.poster_path}` }}
